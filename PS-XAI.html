@@ -16,6 +16,7 @@
     
     
     
+    
     <script type="application/ld+json">{
 		"@context": "http://schema.org",
 		"@type": "Organization",
@@ -62,7 +63,7 @@
             <span style="font-weight: 700;">Description</span>
           </h3>
           <p style="text-align: left;">The idea of this seminar is to make the students familiar with basic algorithms in the field of artificial intelligence (AI). We will not cover neural networks, machine learning or deep learning as this is beyond the scope of this seminar. Alongside with basic AI we also want to introduce explainability. Exlainable AI (XAI) is gaining more and more importance in recent years as AI systems take over in various fields. Two prominent examples are self-driving cars and medical disgnosis. Both require lots of confidence in AI and therefore it is of huge importance to be able to understand and comprehend decisions made by AI systems.&nbsp;</p>
-          <p style="text-align: left;">Other than in normal proseminars, you will get practical experience with the algorithms and implementations. You will implement one of the XAI algorithms for an AI algorithm (taken from sklearn) and present both together with the results in a 20 minutes presentation and a ?-pages report.</p>
+          <p style="text-align: left;">Other than in normal proseminars, you will get practical experience with the algorithms and implementations. You will implement one of the XAI algorithms for an AI algorithm (taken from sklearn) and present both together with the results in a 20 minutes presentation (and a ?-pages report).</p>
           <p style="text-align: left;">
             <br>
           </p>
@@ -80,8 +81,8 @@
           <p>To pass this seminar, you have to</p>
           <ol>
             <li style="text-align: left;">attend both, the kickoff meeting and the presentations,</li>
-            <li style="text-align: left;">give a 20-minutes presentation about your AI algorithm, the XAI algorithm, and your results include a those discussion,</li>
-            <li style="text-align: left;">hand in a ?-pages report summarizing your results.</li>
+            <li style="text-align: left;">give a 20-minutes presentation about your AI algorithm, the XAI algorithm, and your results include a those discussion(, and)</li>
+            <li style="text-align: left;">(hand in a ?-pages report summarizing your results.)</li>
           </ol>
           <p>
             <br>
@@ -144,20 +145,28 @@
       </div>
     </section>
     <section class="u-clearfix u-section-4" id="sec-1aac">
-      <div class="u-clearfix u-sheet u-sheet-1">
+      <div class="u-clearfix u-sheet u-valign-middle u-sheet-1">
         <h3 class="u-text u-text-default u-text-1">Content</h3>
+        <p class="u-text u-text-default u-text-2">As a dataset, we will use the <a href="https://www.kaggle.com/datasets/uciml/pima-indians-diabetes-database" class="u-active-none u-border-none u-btn u-button-link u-button-style u-hover-none u-none u-text-palette-1-base u-btn-1" target="_blank">Pima Indians Diabetes Database</a>&nbsp;to compare the algorithms performance and have interpretable features.
+        </p>
         <div class="u-clearfix u-expanded-width u-layout-wrap u-layout-wrap-1">
           <div class="u-layout">
             <div class="u-layout-row">
               <div class="u-container-style u-layout-cell u-size-30 u-layout-cell-1">
                 <div class="u-container-layout u-container-layout-1">
-                  <h5 class="u-text u-text-default u-text-2">AI algorithms</h5>
-                  <ul class="u-text u-text-default u-text-3">
+                  <h5 class="u-text u-text-default u-text-3">AI algorithms (to be continued)</h5>
+                  <ul class="u-text u-text-default u-text-4">
                     <li>
                       <span style="font-size: 18px;">Support Vector Machine</span>
                     </li>
                     <li>
                       <span style="font-size: 18px;">Random Forrest</span>
+                    </li>
+                    <li>
+                      <span style="font-size: 18px;">Nearest Neighbor</span>
+                    </li>
+                    <li>
+                      <span style="font-size: 18px;">Logistic Regression</span>
                     </li>
                     <li>
                       <span style="font-size: 18px;">...</span>
@@ -167,9 +176,10 @@
               </div>
               <div class="u-container-style u-layout-cell u-size-30 u-layout-cell-2">
                 <div class="u-container-layout u-container-layout-2">
-                  <h5 class="u-text u-text-default u-text-4">XAI algorithms</h5>
-                  <ul class="u-text u-text-default u-text-5">
+                  <h5 class="u-text u-text-default u-text-5">XAI algorithms (to be continued)</h5>
+                  <ul class="u-text u-text-default u-text-6">
                     <li>SHAP values</li>
+                    <li>Shapley regression values</li>
                     <li>LIME</li>
                     <li>...</li>
                   </ul>
@@ -177,6 +187,33 @@
               </div>
             </div>
           </div>
+        </div>
+      </div>
+    </section>
+    <section class="u-align-left u-clearfix u-section-5" id="sec-8ac9">
+      <div class="u-clearfix u-sheet u-sheet-1">
+        <div class="fr-view u-clearfix u-rich-text u-text u-text-1">
+          <h2 style="text-align: left;">What do we expect from the talk?</h2>
+          <ul id="isPasted">
+            <li>How does the AI algorithm work?<ul>
+                <li>What’s the intuition?</li>
+                <li>Advantages</li>
+                <li>Disadvantages</li>
+              </ul>
+            </li>
+            <li>How does the XAI algorithm work?<ul>
+                <li>What’s investigated?</li>
+                <li>Provide intuition for the methodology</li>
+              </ul>
+            </li>
+            <li>Present practical results<ul>
+                <li>How good is the AI algorithm performing?</li>
+                <li>Which features highlight XAI?</li>
+                <li>How does this relate to LR?</li>
+                <li>Apply XAI to LR and compare to your AI</li>
+              </ul>
+            </li>
+          </ul>
         </div>
       </div>
     </section>
