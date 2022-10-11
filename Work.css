@@ -55,11 +55,18 @@
   font-weight: 900;
   margin: 57px auto 7px 0;
 }.u-section-3 .u-sheet-1 {
-  min-height: 165px;
+  min-height: 330px;
 }
 
 .u-section-3 .u-text-1 {
-  margin: 20px 0;
+  margin: 0;
+}
+
+@media (max-width: 767px) {
+  .u-section-3 .u-text-1 {
+    margin-top: 60px;
+    margin-bottom: 60px;
+  }
 }.u-section-4 .u-sheet-1 {
   min-height: 121px;
 }
