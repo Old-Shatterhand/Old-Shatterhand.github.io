@@ -1,0 +1,933 @@
+.navigation-links-nav {
+  flex: 0 0 auto;
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+}
+.navigation-links-navlink {
+  font-size: 20px;
+  font-weight: bold;
+  text-decoration: none;
+}
+.navigation-links-navlink1 {
+  font-size: 20px;
+  font-weight: bold;
+  margin-left: var(--dl-space-space-twounits);
+  text-decoration: none;
+}
+.navigation-links-text {
+  font-size: 20px;
+  font-weight: bold;
+  margin-left: var(--dl-space-space-twounits);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+@media(max-width: 767px) {
+  .navigation-links-nav {
+    align-items: flex-start;
+    flex-direction: column;
+  }
+  .navigation-links-navlink {
+    margin-bottom: var(--dl-space-space-unit);
+  }
+  .navigation-links-navlink1 {
+    margin-left: 0;
+    margin-bottom: var(--dl-space-space-unit);
+  }
+  .navigation-links-text {
+    margin-left: 0;
+    margin-bottom: var(--dl-space-space-unit);
+  }
+}
+
+.seminar-xai-container {
+  width: 100%;
+  display: flex;
+  overflow: auto;
+  min-height: 100vh;
+  align-items: center;
+  flex-direction: column;
+}
+.seminar-xai-header {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  padding-top: var(--dl-space-space-twounits);
+  padding-left: var(--dl-space-space-threeunits);
+  padding-right: var(--dl-space-space-threeunits);
+  padding-bottom: var(--dl-space-space-twounits);
+  justify-content: space-between;
+  background-color: var(--dl-color-primary-500);
+}
+.seminar-xai-text {
+  font-size: 20px;
+}
+.seminar-xai-text001 {
+  font-weight: 700;
+  line-height: 1.5;
+  text-transform: capitalize;
+}
+.seminar-xai-text002 {
+  font-weight: 700;
+  line-height: 1.5;
+  text-transform: capitalize;
+}
+.seminar-xai-text003 {
+  font-weight: 700;
+  line-height: 1.5;
+  text-transform: capitalize;
+}
+.seminar-xai-container01 {
+  flex: 0 0 auto;
+  width: auto;
+  border: 2px dashed rgba(120, 120, 120, 0.4);
+  height: auto;
+  display: flex;
+  align-items: space-between;
+  flex-direction: column;
+}
+.seminar-xai-nav {
+  flex: 0 0 auto;
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+}
+.seminar-xai-burger-menu {
+  display: none;
+}
+.seminar-xai-icon {
+  width: var(--dl-size-size-xsmall);
+  height: var(--dl-size-size-xsmall);
+  display: flex;
+}
+.seminar-xai-mobile-menu {
+  top: 0px;
+  left: 0px;
+  width: 100%;
+  height: 100vh;
+  display: none;
+  padding: 32px;
+  z-index: 100;
+  position: absolute;
+  flex-direction: column;
+  justify-content: space-between;
+  background-color: #fff;
+}
+.seminar-xai-nav1 {
+  display: flex;
+  align-items: flex-start;
+  flex-direction: column;
+}
+.seminar-xai-container02 {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  margin-bottom: var(--dl-space-space-threeunits);
+  justify-content: space-between;
+}
+.seminar-xai-image {
+  height: 2rem;
+}
+.seminar-xai-close-mobile-menu {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.seminar-xai-icon02 {
+  width: var(--dl-size-size-xsmall);
+  height: var(--dl-size-size-xsmall);
+}
+.seminar-xai-icon04 {
+  width: var(--dl-size-size-xsmall);
+  height: var(--dl-size-size-xsmall);
+  margin-right: var(--dl-space-space-twounits);
+}
+.seminar-xai-icon06 {
+  width: var(--dl-size-size-xsmall);
+  height: var(--dl-size-size-xsmall);
+  margin-right: var(--dl-space-space-twounits);
+}
+.seminar-xai-icon08 {
+  width: var(--dl-size-size-xsmall);
+  height: var(--dl-size-size-xsmall);
+}
+.seminar-xai-text005 {
+  font-size: 45px;
+  margin-top: var(--dl-space-space-twounits);
+}
+.seminar-xai-banner {
+  display: flex;
+  padding: var(--dl-space-space-threeunits);
+  align-items: center;
+  justify-content: space-between;
+}
+.seminar-xai-container03 {
+  width: 100%;
+  display: flex;
+  align-items: flex-start;
+  margin-right: var(--dl-space-space-sixunits);
+  flex-direction: column;
+  justify-content: space-between;
+}
+.seminar-xai-text006 {
+  text-align: center;
+  font-weight: 600;
+  margin-bottom: var(--dl-space-space-unit);
+}
+.seminar-xai-text007 {
+  width: 100%;
+  text-align: justify;
+  margin-right: var(--dl-space-space-threeunits);
+}
+.seminar-xai-text008 {
+  font-size: 20px;
+}
+.seminar-xai-text009 {
+  font-size: 20px;
+}
+.seminar-xai-text010 {
+  font-size: 20px;
+}
+.seminar-xai-text011 {
+  font-size: 20px;
+}
+.seminar-xai-text012 {
+  font-size: 20px;
+}
+.seminar-xai-text013 {
+  font-size: 20px;
+}
+.seminar-xai-text014 {
+  font-size: 20px;
+}
+.seminar-xai-text015 {
+  font-size: 20px;
+}
+.seminar-xai-link {
+  font-size: 20px;
+  font-style: italic;
+}
+.seminar-xai-text016 {
+  font-size: 20px;
+}
+.seminar-xai-banner1 {
+  width: 100%;
+  display: flex;
+  padding: var(--dl-space-space-threeunits);
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.seminar-xai-container04 {
+  display: flex;
+  align-items: flex-start;
+  margin-right: var(--dl-space-space-sixunits);
+  flex-direction: column;
+  justify-content: space-between;
+}
+.seminar-xai-text020 {
+  text-align: left;
+  font-weight: 600;
+  margin-bottom: var(--dl-space-space-unit);
+}
+.seminar-xai-text021 {
+  width: 100%;
+  font-size: 20px;
+  margin-right: var(--dl-space-space-threeunits);
+}
+.seminar-xai-text022 {
+  font-size: 20px;
+}
+.seminar-xai-text023 {
+  font-size: 20px;
+}
+.seminar-xai-text024 {
+  font-size: 20px;
+}
+.seminar-xai-text025 {
+  font-size: 20px;
+}
+.seminar-xai-text026 {
+  font-size: 20px;
+}
+.seminar-xai-text027 {
+  font-size: 20px;
+}
+.seminar-xai-text028 {
+  font-size: 20px;
+}
+.seminar-xai-text029 {
+  font-size: 20px;
+}
+.seminar-xai-text030 {
+  font-size: 20px;
+}
+.seminar-xai-text031 {
+  font-size: 20px;
+}
+.seminar-xai-banner2 {
+  width: 100%;
+  display: flex;
+  padding: var(--dl-space-space-threeunits);
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.seminar-xai-container05 {
+  display: flex;
+  align-items: flex-start;
+  margin-right: var(--dl-space-space-sixunits);
+  flex-direction: column;
+  justify-content: space-between;
+}
+.seminar-xai-text036 {
+  text-align: left;
+  font-weight: 600;
+  margin-bottom: var(--dl-space-space-unit);
+}
+.seminar-xai-ul {
+  list-style-type: circle;
+}
+.seminar-xai-text037 {
+  color: var(--dl-color-gray-black);
+  font-size: 20px;
+}
+.seminar-xai-text038 {
+  font-size: 20px;
+}
+.seminar-xai-text041 {
+  font-size: 20px;
+}
+.seminar-xai-text042 {
+  font-size: 20px;
+}
+.seminar-xai-text045 {
+  font-size: 20px;
+}
+.seminar-xai-banner3 {
+  width: 100%;
+  display: flex;
+  padding: var(--dl-space-space-threeunits);
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.seminar-xai-container06 {
+  display: flex;
+  align-items: flex-start;
+  margin-right: var(--dl-space-space-sixunits);
+  flex-direction: column;
+  justify-content: space-between;
+}
+.seminar-xai-text048 {
+  text-align: left;
+  font-weight: 600;
+  margin-bottom: var(--dl-space-space-unit);
+}
+.seminar-xai-ul1 {
+  list-style-type: circle;
+}
+.seminar-xai-text049 {
+  color: var(--dl-color-gray-black);
+  font-size: 20px;
+}
+.seminar-xai-text050 {
+  font-size: 20px;
+}
+.seminar-xai-ul2 {
+  list-style-type: circle;
+}
+.seminar-xai-text053 {
+  color: var(--dl-color-gray-black);
+  font-size: 20px;
+}
+.seminar-xai-text054 {
+  font-size: 20px;
+}
+.seminar-xai-text057 {
+  font-size: 20px;
+}
+.seminar-xai-text058 {
+  font-size: 20px;
+}
+.seminar-xai-ul3 {
+  list-style-type: circle;
+}
+.seminar-xai-text059 {
+  color: var(--dl-color-gray-black);
+  font-size: 20px;
+}
+.seminar-xai-text060 {
+  font-size: 20px;
+}
+.seminar-xai-text063 {
+  font-size: 20px;
+}
+.seminar-xai-text064 {
+  font-size: 20px;
+}
+.seminar-xai-text065 {
+  font-size: 20px;
+}
+.seminar-xai-text068 {
+  width: 100%;
+  font-size: 20px;
+  text-align: justify;
+  margin-right: var(--dl-space-space-threeunits);
+}
+.seminar-xai-text069 {
+  font-size: 23px;
+  text-decoration: underline;
+}
+.seminar-xai-link01 {
+  font-weight: 700;
+  text-decoration: underline;
+}
+.seminar-xai-text073 {
+  text-decoration: underline;
+}
+.seminar-xai-banner4 {
+  width: 100%;
+  display: flex;
+  padding: var(--dl-space-space-threeunits);
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.seminar-xai-container07 {
+  display: flex;
+  align-items: flex-start;
+  margin-right: var(--dl-space-space-sixunits);
+  flex-direction: column;
+  justify-content: space-between;
+}
+.seminar-xai-text077 {
+  text-align: left;
+  font-weight: 600;
+  margin-bottom: var(--dl-space-space-unit);
+}
+.seminar-xai-text078 {
+  width: 100%;
+  font-size: 20px;
+  text-align: justify;
+  margin-right: var(--dl-space-space-threeunits);
+}
+.seminar-xai-text081 {
+  font-style: italic;
+}
+.seminar-xai-text083 {
+  font-weight: 700;
+}
+.seminar-xai-text085 {
+  text-decoration: underline;
+}
+.seminar-xai-banner5 {
+  width: 100%;
+  display: flex;
+  padding: var(--dl-space-space-threeunits);
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.seminar-xai-container08 {
+  display: flex;
+  align-items: flex-start;
+  margin-right: var(--dl-space-space-sixunits);
+  flex-direction: column;
+  justify-content: space-between;
+}
+.seminar-xai-text088 {
+  text-align: left;
+  font-weight: 600;
+  margin-bottom: var(--dl-space-space-unit);
+}
+.seminar-xai-ul4 {
+  list-style-type: circle;
+}
+.seminar-xai-text089 {
+  color: var(--dl-color-gray-black);
+  font-size: 20px;
+}
+.seminar-xai-text090 {
+  font-size: 20px;
+}
+.seminar-xai-text091 {
+  font-size: 20px;
+}
+.seminar-xai-text092 {
+  font-size: 20px;
+}
+.seminar-xai-text093 {
+  font-size: 20px;
+}
+.seminar-xai-text094 {
+  font-size: 20px;
+}
+.seminar-xai-text095 {
+  font-size: 20px;
+}
+.seminar-xai-text096 {
+  font-weight: 700;
+}
+.seminar-xai-banner6 {
+  width: 100%;
+  display: flex;
+  padding: var(--dl-space-space-threeunits);
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.seminar-xai-container09 {
+  display: flex;
+  align-items: flex-start;
+  margin-right: var(--dl-space-space-sixunits);
+  flex-direction: column;
+  justify-content: space-between;
+}
+.seminar-xai-text100 {
+  text-align: left;
+  font-weight: 600;
+  margin-bottom: var(--dl-space-space-unit);
+}
+.seminar-xai-ul5 {
+  list-style-type: circle;
+}
+.seminar-xai-text101 {
+  color: var(--dl-color-gray-black);
+  font-size: 20px;
+}
+.seminar-xai-text102 {
+  font-size: 20px;
+}
+.seminar-xai-text103 {
+  font-size: 20px;
+}
+.seminar-xai-banner7 {
+  width: 100%;
+  display: flex;
+  padding: var(--dl-space-space-threeunits);
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.seminar-xai-container10 {
+  display: flex;
+  align-items: flex-start;
+  margin-right: var(--dl-space-space-sixunits);
+  flex-direction: column;
+  justify-content: space-between;
+}
+.seminar-xai-text104 {
+  text-align: left;
+  font-weight: 600;
+  margin-bottom: var(--dl-space-space-unit);
+}
+.seminar-xai-text105 {
+  font-size: 20px;
+  align-self: flex-start;
+  text-align: justify;
+}
+.seminar-xai-link02 {
+  font-style: italic;
+}
+.seminar-xai-ul6 {
+  list-style-type: decimal;
+  list-style-image: none;
+  list-style-position: outside;
+}
+.seminar-xai-li26 {
+  margin-bottom: var(--dl-space-space-halfunit);
+}
+.seminar-xai-text114 {
+  color: var(--dl-color-gray-black);
+  font-size: 20px;
+}
+.seminar-xai-text115 {
+  text-decoration: underline;
+}
+.seminar-xai-link03 {
+  font-style: italic;
+}
+.seminar-xai-link04 {
+  font-style: italic;
+}
+.seminar-xai-li27 {
+  margin-bottom: var(--dl-space-space-halfunit);
+}
+.seminar-xai-text120 {
+  font-size: 20px;
+}
+.seminar-xai-text121 {
+  text-decoration: underline;
+}
+.seminar-xai-link05 {
+  font-style: italic;
+}
+.seminar-xai-link06 {
+  font-style: italic;
+}
+.seminar-xai-li28 {
+  margin-bottom: var(--dl-space-space-halfunit);
+}
+.seminar-xai-text125 {
+  font-size: 20px;
+}
+.seminar-xai-text126 {
+  text-decoration: underline;
+}
+.seminar-xai-link07 {
+  font-style: italic;
+}
+.seminar-xai-text129 {
+  color: var(--dl-color-danger-500);
+}
+.seminar-xai-li29 {
+  margin-bottom: var(--dl-space-space-halfunit);
+}
+.seminar-xai-text131 {
+  font-size: 20px;
+}
+.seminar-xai-text132 {
+  text-decoration: underline;
+}
+.seminar-xai-link08 {
+  font-style: italic;
+}
+.seminar-xai-text135 {
+  color: var(--dl-color-danger-500);
+}
+.seminar-xai-text137 {
+  font-size: 20px;
+}
+.seminar-xai-text138 {
+  text-decoration: underline;
+}
+.seminar-xai-text139 {
+  text-decoration: underline;
+}
+.seminar-xai-link09 {
+  font-style: italic;
+}
+.seminar-xai-link10 {
+  font-style: italic;
+}
+.seminar-xai-link11 {
+  font-style: italic;
+}
+.seminar-xai-link12 {
+  font-style: italic;
+}
+.seminar-xai-text143 {
+  text-decoration: underline;
+}
+.seminar-xai-text144 {
+  font-size: 20px;
+}
+.seminar-xai-text145 {
+  text-decoration: underline;
+}
+.seminar-xai-link13 {
+  font-style: italic;
+}
+.seminar-xai-link14 {
+  font-style: italic;
+}
+.seminar-xai-text149 {
+  font-style: italic;
+}
+.seminar-xai-link15 {
+  font-style: italic;
+}
+.seminar-xai-text152 {
+  font-size: 20px;
+}
+.seminar-xai-text153 {
+  text-decoration: underline;
+}
+.seminar-xai-link16 {
+  font-style: italic;
+}
+.seminar-xai-link17 {
+  font-style: italic;
+}
+.seminar-xai-link18 {
+  font-style: italic;
+}
+.seminar-xai-text158 {
+  font-size: 20px;
+}
+.seminar-xai-text159 {
+  text-decoration: underline;
+}
+.seminar-xai-link19 {
+  font-style: italic;
+}
+.seminar-xai-link20 {
+  font-style: italic;
+}
+.seminar-xai-link21 {
+  font-style: italic;
+}
+.seminar-xai-text164 {
+  font-size: 20px;
+}
+.seminar-xai-text165 {
+  text-decoration: underline;
+}
+.seminar-xai-text166 {
+  text-decoration: underline;
+}
+.seminar-xai-link22 {
+  font-style: italic;
+}
+.seminar-xai-link23 {
+  font-style: italic;
+}
+.seminar-xai-link24 {
+  font-style: italic;
+}
+.seminar-xai-link25 {
+  font-style: italic;
+}
+.seminar-xai-text170 {
+  text-decoration: underline;
+}
+.seminar-xai-text171 {
+  font-size: 20px;
+}
+.seminar-xai-ul7 {
+  list-style-type: disc;
+  list-style-image: none;
+  list-style-position: outside;
+}
+.seminar-xai-li35 {
+  margin-bottom: var(--dl-space-space-halfunit);
+}
+.seminar-xai-text172 {
+  color: var(--dl-color-gray-black);
+  font-size: 20px;
+}
+.seminar-xai-li36 {
+  margin-bottom: var(--dl-space-space-halfunit);
+}
+.seminar-xai-text174 {
+  color: var(--dl-color-gray-black);
+  font-size: 20px;
+}
+.seminar-xai-li37 {
+  margin-bottom: var(--dl-space-space-halfunit);
+}
+.seminar-xai-text176 {
+  color: var(--dl-color-gray-black);
+  font-size: 20px;
+}
+.seminar-xai-li38 {
+  margin-bottom: var(--dl-space-space-halfunit);
+}
+.seminar-xai-text178 {
+  color: var(--dl-color-gray-black);
+  font-size: 20px;
+}
+@media(max-width: 991px) {
+  .seminar-xai-banner {
+    flex-direction: column;
+  }
+  .seminar-xai-container03 {
+    align-items: center;
+    margin-right: 0px;
+    margin-bottom: var(--dl-space-space-threeunits);
+  }
+  .seminar-xai-text007 {
+    text-align: center;
+    margin-left: var(--dl-space-space-threeunits);
+  }
+  .seminar-xai-banner1 {
+    flex-direction: column;
+  }
+  .seminar-xai-container04 {
+    align-items: center;
+    margin-right: 0px;
+    margin-bottom: var(--dl-space-space-threeunits);
+  }
+  .seminar-xai-text021 {
+    text-align: center;
+    margin-left: var(--dl-space-space-threeunits);
+  }
+  .seminar-xai-banner2 {
+    flex-direction: column;
+  }
+  .seminar-xai-container05 {
+    align-items: center;
+    margin-right: 0px;
+    margin-bottom: var(--dl-space-space-threeunits);
+  }
+  .seminar-xai-banner3 {
+    flex-direction: column;
+  }
+  .seminar-xai-container06 {
+    align-items: center;
+    margin-right: 0px;
+    margin-bottom: var(--dl-space-space-threeunits);
+  }
+  .seminar-xai-text068 {
+    text-align: center;
+    margin-left: var(--dl-space-space-threeunits);
+  }
+  .seminar-xai-banner4 {
+    flex-direction: column;
+  }
+  .seminar-xai-container07 {
+    align-items: center;
+    margin-right: 0px;
+    margin-bottom: var(--dl-space-space-threeunits);
+  }
+  .seminar-xai-text078 {
+    text-align: center;
+    margin-left: var(--dl-space-space-threeunits);
+  }
+  .seminar-xai-banner5 {
+    flex-direction: column;
+  }
+  .seminar-xai-container08 {
+    align-items: center;
+    margin-right: 0px;
+    margin-bottom: var(--dl-space-space-threeunits);
+  }
+  .seminar-xai-banner6 {
+    flex-direction: column;
+  }
+  .seminar-xai-container09 {
+    align-items: center;
+    margin-right: 0px;
+    margin-bottom: var(--dl-space-space-threeunits);
+  }
+  .seminar-xai-banner7 {
+    flex-direction: column;
+  }
+  .seminar-xai-container10 {
+    align-items: center;
+    margin-right: 0px;
+    margin-bottom: var(--dl-space-space-threeunits);
+  }
+}
+@media(max-width: 767px) {
+  .seminar-xai-header {
+    padding-left: var(--dl-space-space-twounits);
+    padding-right: var(--dl-space-space-twounits);
+  }
+  .seminar-xai-nav {
+    display: none;
+  }
+  .seminar-xai-burger-menu {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .seminar-xai-banner {
+    padding-left: var(--dl-space-space-twounits);
+    padding-right: var(--dl-space-space-twounits);
+  }
+  .seminar-xai-text007 {
+    margin-left: var(--dl-space-space-unit);
+    margin-right: var(--dl-space-space-unit);
+  }
+  .seminar-xai-banner1 {
+    padding-left: var(--dl-space-space-twounits);
+    padding-right: var(--dl-space-space-twounits);
+  }
+  .seminar-xai-text021 {
+    margin-left: var(--dl-space-space-unit);
+    margin-right: var(--dl-space-space-unit);
+  }
+  .seminar-xai-banner2 {
+    padding-left: var(--dl-space-space-twounits);
+    padding-right: var(--dl-space-space-twounits);
+  }
+  .seminar-xai-banner3 {
+    padding-left: var(--dl-space-space-twounits);
+    padding-right: var(--dl-space-space-twounits);
+  }
+  .seminar-xai-text068 {
+    margin-left: var(--dl-space-space-unit);
+    margin-right: var(--dl-space-space-unit);
+  }
+  .seminar-xai-banner4 {
+    padding-left: var(--dl-space-space-twounits);
+    padding-right: var(--dl-space-space-twounits);
+  }
+  .seminar-xai-text078 {
+    margin-left: var(--dl-space-space-unit);
+    margin-right: var(--dl-space-space-unit);
+  }
+  .seminar-xai-banner5 {
+    padding-left: var(--dl-space-space-twounits);
+    padding-right: var(--dl-space-space-twounits);
+  }
+  .seminar-xai-banner6 {
+    padding-left: var(--dl-space-space-twounits);
+    padding-right: var(--dl-space-space-twounits);
+  }
+  .seminar-xai-banner7 {
+    padding-left: var(--dl-space-space-twounits);
+    padding-right: var(--dl-space-space-twounits);
+  }
+}
+@media(max-width: 479px) {
+  .seminar-xai-header {
+    padding: var(--dl-space-space-unit);
+  }
+  .seminar-xai-mobile-menu {
+    padding: 16px;
+  }
+  .seminar-xai-banner {
+    padding-top: var(--dl-space-space-twounits);
+    padding-left: var(--dl-space-space-unit);
+    padding-right: var(--dl-space-space-unit);
+    padding-bottom: var(--dl-space-space-twounits);
+  }
+  .seminar-xai-banner1 {
+    padding-top: var(--dl-space-space-twounits);
+    padding-left: var(--dl-space-space-unit);
+    padding-right: var(--dl-space-space-unit);
+    padding-bottom: var(--dl-space-space-twounits);
+  }
+  .seminar-xai-banner2 {
+    padding-top: var(--dl-space-space-twounits);
+    padding-left: var(--dl-space-space-unit);
+    padding-right: var(--dl-space-space-unit);
+    padding-bottom: var(--dl-space-space-twounits);
+  }
+  .seminar-xai-banner3 {
+    padding-top: var(--dl-space-space-twounits);
+    padding-left: var(--dl-space-space-unit);
+    padding-right: var(--dl-space-space-unit);
+    padding-bottom: var(--dl-space-space-twounits);
+  }
+  .seminar-xai-banner4 {
+    padding-top: var(--dl-space-space-twounits);
+    padding-left: var(--dl-space-space-unit);
+    padding-right: var(--dl-space-space-unit);
+    padding-bottom: var(--dl-space-space-twounits);
+  }
+  .seminar-xai-banner5 {
+    padding-top: var(--dl-space-space-twounits);
+    padding-left: var(--dl-space-space-unit);
+    padding-right: var(--dl-space-space-unit);
+    padding-bottom: var(--dl-space-space-twounits);
+  }
+  .seminar-xai-banner6 {
+    padding-top: var(--dl-space-space-twounits);
+    padding-left: var(--dl-space-space-unit);
+    padding-right: var(--dl-space-space-unit);
+    padding-bottom: var(--dl-space-space-twounits);
+  }
+  .seminar-xai-banner7 {
+    padding-top: var(--dl-space-space-twounits);
+    padding-left: var(--dl-space-space-unit);
+    padding-right: var(--dl-space-space-unit);
+    padding-bottom: var(--dl-space-space-twounits);
+  }
+}
