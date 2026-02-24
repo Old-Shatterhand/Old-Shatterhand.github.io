@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Research &amp; Publications — Roman Joeres</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+<nav>
+  <a class="nav-brand" href="index.html">Roman Joeres</a>
+  <ul class="nav-links">
+    <li><a href="index.html">Home</a></li>
+    <li><a href="research.html" class="active">Research</a></li>
+    <li><a href="talks.html">Conferences</a></li>
+    <li><a href="teaching.html">Teaching</a></li>
+  </ul>
+</nav>
+
+<header class="page-header">
+  <div class="page-header-inner">
+    <div class="section-label">Academic Work</div>
+    <h1>Research &amp; Publications</h1>
+  </div>
+</header>
+
+<div class="content">
+  <p class="intro-block">
+    My research focuses on deep learning in computational molecular biology. I am interested in
+    protein-ligand interaction prediction, deep learning and information leakage.
+    Below is a selection of my published work; a full list is available on
+    <a href="https://scholar.google.com/citations?user=wou9eEMAAAAJ&hl=de&oi=ao">Google Scholar</a>.
+  </p>
+
+  <div class="pub-section">
+    <ul class="pub-list">
+      <li class="pub-item">
+        <div>
+          <div class="pub-title">Data splitting to avoid informatinon leakage with DataSAIL</div>
+          <div class="pub-authors">Roman Joeres, David B. Blumenthal, Olga V. Kalinina</div>
+          <div class="pub-meta">Nature Communications, 16(1) 3337</div>
+          <div class="pub-abstract" id="abs2">
+            Information leakage is an increasingly important topic in machine learning research for biomedical applications. 
+            When information leakage happens during a model’s training, it risks memorizing the training data instead of 
+            learning generalizable properties. This can lead to inflated performance metrics that do not reflect the actual 
+            performance at inference time. We present DataSAIL, a versatile Python package to facilitate leakage-reduced 
+            data splitting to enable realistic evaluation of machine learning models for biological data that are intended 
+            to be applied in out-of-distribution scenarios. DataSAIL is based on formulating the problem to find 
+            leakage-reduced data splits as a combinatorial optimization problem. We prove that this problem is NP-hard and 
+            provide a scalable heuristic based on clustering and integer linear programming. Finally, we empirically 
+            demonstrate DataSAIL’s impact on evaluating biomedical machine learning models.
+          </div>
+        </div>
+        <div class="pub-actions">
+          <a href="https://doi.org/10.1038/s41467-025-58606-8" class="pub-link">DOI: 10.1038/s41467-025-58606-8</a>
+          <button class="toggle-abstract" onclick="toggleAbstract('abs2', this)">Abstract ▾</button>
+        </div>
+      </li>
+
+      <li class="pub-item">
+        <div>
+          <div class="pub-title">Guiding questions to avoid data leakage in biological machine learning applications</div>
+          <div class="pub-authors">Judith Bernett, David B. Blumenthal, Dominik G. Grimm, Florian Haselbeck, Roman Joeres, Olga V. Kalinina and Markus List</div>
+          <div class="pub-meta">Nature Methods, 21(8) 1444-1453</div>
+          <div class="pub-abstract" id="abs1">
+            Machine learning methods for extracting patterns from high-dimensional data are very important in the biological 
+            sciences. However, in certain cases, real-world applications cannot confirm the reported prediction performance. 
+            One of the main reasons for this is data leakage, which can be seen as the illicit sharing of information between 
+            the training data and the test data, resulting in performance estimates that are far better than the performance 
+            observed in the intended application scenario. Data leakage can be difficult to detect in biological datasets due 
+            to their complex dependencies. With this in mind, we present seven questions that should be asked to prevent data 
+            leakage when constructing machine learning models in biological domains. We illustrate the usefulness of our 
+            questions by applying them to nontrivial examples. Our goal is to raise awareness of potential data leakage 
+            problems and to promote robust and reproducible machine learning-based research in biology.
+          </div>
+        </div>
+        <div class="pub-actions">
+          <a href="https://doi.org/10.1038/s41592-024-02362-y" class="pub-link">DOI: s41592-024-02362-y</a>
+          <button class="toggle-abstract" onclick="toggleAbstract('abs1', this)">Abstract ▾</button>
+        </div>
+      </li>
+
+      <li class="pub-item">
+        <div>
+          <div class="pub-title">Higher-Order Message Passing for Glycan Representation Learning</div>
+          <div class="pub-authors">Roman Joeres, Daniel Bojar</div>
+          <div class="pub-meta">Paper at Machine Learning for Structural Biology Workshop @ NeurIPS 2024</div>
+          <div class="pub-abstract" id="abs3">
+            Glycans are the most complex biological sequence, with monosaccharides forming extended, non-linear sequences. 
+            As post-translational modifications, they modulate protein structure, function, and interactions. 
+            Due to their diversity and complexity, predictive models of glycan properties and functions are still insufficient.<br>
+            Graph Neural Networks (GNNs) are deep learning models designed to process and analyze graph-structured data. 
+            These architectures leverage the connectivity and relational information in graphs to learn effective representations 
+            of nodes, edges, and entire graphs. Iteratively aggregating information from neighboring nodes, GNNs capture complex 
+            patterns within graph data, making them particularly well-suited for tasks such as link prediction or graph 
+            classification across domains.<br>
+            This work presents a new model architecture based on combinatorial complexes and higher-order message passing to 
+            extract features from glycan structures into a latent space representation. The architecture is evaluated on an improved 
+            GlycanML benchmark suite, establishing a new state-of-the-art performance. We envision that these improvements will spur 
+            further advances in computational glycosciences and reveal the roles of glycans in biology.<br>
+          </div>
+        </div>
+        <div class="pub-actions">
+          <a href="https://doi.org/10.1038/s41592-024-02362-y" class="pub-link">DOI: s41592-024-02362-y</a>
+          <button class="toggle-abstract" onclick="toggleAbstract('abs3', this)">Abstract ▾</button>
+        </div>
+      </li>
+
+      <li class="pub-item">
+        <div>
+          <div class="pub-title">GlyLES: Grammar-based Parsing of Glycans from IUPAC-condensed to SMILES</div>
+          <div class="pub-authors">Roman Joeres, Daniel Bojar and Olga V. Kalinina</div>
+          <div class="pub-meta">Journal of Cheminformatics, 15(1), 37</div>
+          <div class="pub-abstract" id="abs4">
+            Glycans are important polysaccharides on cellular surfaces that are bound to glycoproteins and glycolipids. 
+            These are one of the most common post-translational modifications of proteins in eukaryotic cells. They play 
+            important roles in protein folding, cell-cell interactions, and other extracellular processes. Changes in 
+            glycan structures may influence the course of different diseases, such as infections or cancer. Glycans are 
+            commonly represented using the IUPAC-condensed notation. IUPAC-condensed is a textual representation of glycans 
+            operating on the same topological level as the Symbol Nomenclature for Glycans (SNFG) that assigns colored, 
+            geometrical shapes to the main monomers. These symbols are then connected in tree-like structures, visualizing 
+            the glycan structure on a topological level. Yet for a representation on the atomic level, notations such as 
+            SMILES should be used. To our knowledge, there is no easy-to-use, general, open-source, and offline tool to 
+            convert the IUPAC-condensed notation to SMILES. Here, we present the open-access Python package GlyLES for the 
+            generalizable generation of SMILES representations out of IUPAC-condensed representations. GlyLES uses a grammar 
+            to read in the monomer tree from the IUPAC-condensed notation. From this tree, the tool can compute the atomic 
+            structures of each monomer based on their IUPAC-condensed descriptions. In the last step, it merges all monomers 
+            into the atomic structure of a glycan in the SMILES notation. GlyLES is the first package that allows conversion 
+            from the IUPAC-condensed notation of glycans to SMILES strings. This may have multiple applications, including 
+            straightforward visualization, substructure search, molecular modeling and docking, and a new featurization 
+            strategy for machine-learning algorithms.
+          </div>
+        </div>
+        <div class="pub-actions">
+          <a href="https://doi.org/10.1186/s13321-023-00704-0" class="pub-link">DOI: 10.1186/s13321-023-00704-0</a>
+          <button class="toggle-abstract" onclick="toggleAbstract('abs4', this)">Abstract ▾</button>
+        </div>
+      </li>
+
+    </ul>
+  </div>
+</div>
+
+<footer>
+  <p>&copy; 2026 Roman Joeres · Saarland University & Helmholtz Institute for Pharmaceutical Research · All rights reserved</p>
+</footer>
+
+<footer>
+  <div class="footer-inner">
+
+    <div class="footer-social">
+
+      <!-- Twitter / X -->
+      <a href="https://twitter.com/RomanJoeres" target="_blank" rel="noopener" data-label="Twitter / X" aria-label="Twitter">
+        <svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M18.244 2.25h3.308l-7.227 8.26 8.502 11.24H16.17l-4.714-6.231-5.401 6.231H2.744l7.737-8.835L2.25 2.25h6.978l4.253 5.622 4.763-5.622Zm-1.161 17.52h1.833L7.084 4.126H5.117L17.083 19.77Z"/></svg>
+      </a>
+
+      <!-- BlueSky -->
+      <a href="https://bsky.app/profile/romanjoeres.bsky.social" target="_blank" rel="noopener" data-label="BlueSky" aria-label="BlueSky">
+        <svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M12 10.8c-1.087-2.114-4.046-6.053-6.798-7.995C2.566.944 1.561 1.266.902 1.565.139 1.908 0 3.08 0 3.768c0 .69.378 5.65.624 6.479.815 2.736 3.713 3.66 6.383 3.364.136-.02.275-.039.415-.056-.138.022-.276.04-.415.056-3.912.58-7.387 2.005-2.83 7.078 5.013 5.19 6.87-1.113 7.823-4.308.953 3.195 2.05 9.271 7.733 4.308 4.267-4.308 1.172-6.498-2.74-7.078a8.741 8.741 0 0 1-.415-.056c.14.017.279.036.415.056 2.67.297 5.568-.628 6.383-3.364.246-.828.624-5.79.624-6.478 0-.69-.139-1.861-.902-2.204-.659-.299-1.664-.62-4.3 1.24C16.046 4.748 13.087 8.687 12 10.8Z"/></svg>
+      </a>
+
+      <!-- LinkedIn -->
+      <a href="https://www.linkedin.com/in/roman-joeres-42a6972b1/" target="_blank" rel="noopener" data-label="LinkedIn" aria-label="LinkedIn">
+        <svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M20.447 20.452h-3.554v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433a2.062 2.062 0 0 1-2.063-2.065 2.064 2.064 0 1 1 2.063 2.065zm1.782 13.019H3.555V9h3.564v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.222 0h.003z"/></svg>
+      </a>
+
+      <!-- GitHub -->
+      <a href="https://github.com/Old-Shatterhand" target="_blank" rel="noopener" data-label="GitHub" aria-label="GitHub">
+        <svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M12 .297c-6.63 0-12 5.373-12 12 0 5.303 3.438 9.8 8.205 11.385.6.113.82-.258.82-.577 0-.285-.01-1.04-.015-2.04-3.338.724-4.042-1.61-4.042-1.61C4.422 18.07 3.633 17.7 3.633 17.7c-1.087-.744.084-.729.084-.729 1.205.084 1.838 1.236 1.838 1.236 1.07 1.835 2.809 1.305 3.495.998.108-.776.417-1.305.76-1.605-2.665-.3-5.466-1.332-5.466-5.93 0-1.31.465-2.38 1.235-3.22-.135-.303-.54-1.523.105-3.176 0 0 1.005-.322 3.3 1.23.96-.267 1.98-.399 3-.405 1.02.006 2.04.138 3 .405 2.28-1.552 3.285-1.23 3.285-1.23.645 1.653.24 2.873.12 3.176.765.84 1.23 1.91 1.23 3.22 0 4.61-2.805 5.625-5.475 5.92.42.36.81 1.096.81 2.22 0 1.606-.015 2.896-.015 3.286 0 .315.21.69.825.57C20.565 22.092 24 17.592 24 12.297c0-6.627-5.373-12-12-12"/></svg>
+      </a>
+
+      <!-- ORCID -->
+      <a href="https://orcid.org/0009-0000-2952-9395" target="_blank" rel="noopener" data-label="ORCID" aria-label="ORCID">
+        <svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M12 0C5.372 0 0 5.372 0 12s5.372 12 12 12 12-5.372 12-12S18.628 0 12 0zM7.369 4.378c.525 0 .947.431.947.947s-.422.947-.947.947a.95.95 0 0 1-.947-.947c0-.525.422-.947.947-.947zm-.722 3.038h1.444v10.041H6.647V7.416zm3.562 0h3.9c3.712 0 5.344 2.653 5.344 5.025 0 2.578-2.016 5.016-5.325 5.016h-3.919V7.416zm1.444 1.303v7.444h2.297c3.272 0 3.862-2.203 3.862-3.722 0-2.016-1.1-3.722-3.984-3.722h-2.175z"/></svg>
+      </a>
+
+    </div>
+
+    <hr class="footer-divider" />
+
+    <p class="footer-copy">&copy; 2026 Roman Joeres · Saarland University & Helmholtz Institute for Pharmaceutical Research · All rights reserved</p>
+
+  </div>
+</footer>
+
+<script>
+  function toggleAbstract(id, btn) {
+    const el = document.getElementById(id);
+    el.classList.toggle('open');
+    btn.textContent = el.classList.contains('open') ? 'Abstract ▴' : 'Abstract ▾';
+  }
+</script>
+</body>
+</html>

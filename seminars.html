@@ -1,0 +1,331 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Seminars — Dr. Your Name</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+<nav>
+  <a class="nav-brand" href="index.html">Dr. Your Name</a>
+  <ul class="nav-links">
+    <li><a href="index.html">Home</a></li>
+    <li><a href="research.html">Research</a></li>
+    <li><a href="talks.html">Talks</a></li>
+    <li><a href="teaching.html">Teaching</a></li>
+    <li><a href="seminars.html" class="active">Seminars</a></li>
+  </ul>
+</nav>
+
+<header class="page-header">
+  <div class="page-header-inner">
+    <div class="section-label">Organised by Dr. Your Name</div>
+    <h1>Research Seminars</h1>
+  </div>
+</header>
+
+<div class="content">
+  <p class="intro-block">
+    I organise and co-organise several research seminars and reading groups.
+    These events bring together researchers, doctoral students, and practitioners
+    to discuss current work in [your field]. All events are open unless stated otherwise.
+  </p>
+
+  <!-- Seminar selector tabs -->
+  <div class="seminar-tabs">
+    <button class="seminar-tab active" onclick="showSeminar('seminar1', this)">Seminar Series I</button>
+    <button class="seminar-tab" onclick="showSeminar('seminar2', this)">Reading Group</button>
+    <button class="seminar-tab" onclick="showSeminar('seminar3', this)">Workshop 2025</button>
+  </div>
+
+  <!-- ── SEMINAR 1 ── -->
+  <div class="seminar-panel active" id="seminar1">
+    <div class="seminar-hero">
+      <div>
+        <div class="section-label">Ongoing · Summer Semester 2025</div>
+        <div class="seminar-title">Title of Your First Seminar Series</div>
+        <div class="seminar-subtitle">Subtitle or thematic framing of the seminar</div>
+        <div class="seminar-description">
+          <p>
+            A longer description of this seminar series. What is its intellectual aim? What questions does it address?
+            Who is the target audience — MA students, PhD candidates, faculty? Is it part of a larger research project
+            or collaborative initiative?
+          </p>
+          <br />
+          <p>
+            The seminar meets [bi-weekly / weekly / monthly] and features a mix of invited speakers and
+            internal presentations. Papers circulated in advance; prior reading is expected.
+          </p>
+        </div>
+      </div>
+      <div>
+        <div class="seminar-info-box">
+          <div class="info-row">
+            <div class="info-label">When</div>
+            <div class="info-value">Thursdays, 16:00–18:00</div>
+          </div>
+          <div class="info-row">
+            <div class="info-label">Where</div>
+            <div class="info-value">Room [XX], [Building], [Campus]</div>
+          </div>
+          <div class="info-row">
+            <div class="info-label">Format</div>
+            <div class="info-value">In-person + Zoom hybrid</div>
+          </div>
+          <div class="info-row">
+            <div class="info-label">Contact</div>
+            <div class="info-value">your.email@university.edu</div>
+          </div>
+          <a href="mailto:your.email@university.edu?subject=Seminar Registration" class="register-btn">Register / Join Mailing List</a>
+        </div>
+      </div>
+    </div>
+
+    <div class="schedule-title">Programme — Summer 2025</div>
+    <ul class="session-list">
+      <li class="session-item">
+        <div class="session-num">01</div>
+        <div>
+          <div class="session-date">15 April 2025 <span class="status-badge status-past">Past</span></div>
+          <div class="session-title">Opening Session: [Topic or Reading Title]</div>
+          <div class="session-desc">Introduction to the semester's theme. Organisers present the overarching framework.</div>
+        </div>
+      </li>
+      <li class="session-item">
+        <div class="session-num">02</div>
+        <div>
+          <div class="session-date">29 April 2025 <span class="status-badge status-past">Past</span></div>
+          <div class="session-title">Title of Session Two</div>
+          <div class="session-desc">Short description of the session's focus and the text or topic discussed.</div>
+          <div class="session-speaker">Speaker: Prof. Guest Speaker, [University]</div>
+          <a href="#" class="session-link">Download slides →</a>
+        </div>
+      </li>
+      <li class="session-item">
+        <div class="session-num">03</div>
+        <div>
+          <div class="session-date">13 May 2025 <span class="status-badge status-upcoming">Upcoming</span></div>
+          <div class="session-title">Title of Session Three</div>
+          <div class="session-desc">Description of the next session. Participants should come having read [Text X].</div>
+          <div class="session-speaker">Speaker: Dr. Another Guest, [Institute]</div>
+        </div>
+      </li>
+      <li class="session-item">
+        <div class="session-num">04</div>
+        <div>
+          <div class="session-date">27 May 2025 <span class="status-badge status-upcoming">Upcoming</span></div>
+          <div class="session-title">Title of Session Four</div>
+          <div class="session-desc">To be confirmed.</div>
+        </div>
+      </li>
+      <li class="session-item">
+        <div class="session-num">05</div>
+        <div>
+          <div class="session-date">10 June 2025 <span class="status-badge status-upcoming">Upcoming</span></div>
+          <div class="session-title">Closing Session: Synthesis &amp; Discussion</div>
+          <div class="session-desc">Final roundtable drawing together the semester's themes. All participants welcome to contribute.</div>
+        </div>
+      </li>
+    </ul>
+
+    <div class="reading-section">
+      <h3>Core Reading List</h3>
+      <ul class="reading-list">
+        <li class="reading-item">
+          <span>Author A, <em>Book Title</em> (Publisher, Year), Chapters 1–3</span>
+          <span class="reading-type">Required</span>
+        </li>
+        <li class="reading-item">
+          <span>Author B, "Article Title," <em>Journal Name</em>, Vol. X (Year)</span>
+          <span class="reading-type">Required</span>
+        </li>
+        <li class="reading-item">
+          <span>Author C, <em>Another Book</em> (Publisher, Year)</span>
+          <span class="reading-type">Background</span>
+        </li>
+        <li class="reading-item">
+          <span>Author D &amp; Author E, "Chapter Title" in <em>Edited Volume</em>, eds. Editors (Year)</span>
+          <span class="reading-type">Background</span>
+        </li>
+      </ul>
+    </div>
+  </div>
+
+  <!-- ── SEMINAR 2 ── -->
+  <div class="seminar-panel" id="seminar2">
+    <div class="seminar-hero">
+      <div>
+        <div class="section-label">Ongoing · Year-Round</div>
+        <div class="seminar-title">Reading Group on [Topic]</div>
+        <div class="seminar-subtitle">A regular informal reading group for researchers and doctoral students</div>
+        <div class="seminar-description">
+          <p>
+            This reading group meets monthly to discuss a pre-selected text from [field or theme].
+            Sessions are informal and discussion-focused, with no prepared presentations.
+            All participants are expected to have read the text in advance.
+          </p>
+          <br />
+          <p>
+            The group is open to doctoral students and researchers at [your institution]. If you would
+            like to join or suggest a text, please contact me by email.
+          </p>
+        </div>
+      </div>
+      <div>
+        <div class="seminar-info-box">
+          <div class="info-row">
+            <div class="info-label">When</div>
+            <div class="info-value">First Monday of each month, 18:00</div>
+          </div>
+          <div class="info-row">
+            <div class="info-label">Where</div>
+            <div class="info-value">Room [XX], [Building]</div>
+          </div>
+          <div class="info-row">
+            <div class="info-label">Format</div>
+            <div class="info-value">In-person only</div>
+          </div>
+          <div class="info-row">
+            <div class="info-label">Open to</div>
+            <div class="info-value">PhD students &amp; researchers</div>
+          </div>
+          <a href="mailto:your.email@university.edu?subject=Reading Group" class="register-btn">Request to Join</a>
+        </div>
+      </div>
+    </div>
+
+    <div class="schedule-title">2025 Session Texts</div>
+    <ul class="session-list">
+      <li class="session-item">
+        <div class="session-num">Jan</div>
+        <div>
+          <div class="session-date">6 January 2025 <span class="status-badge status-past">Past</span></div>
+          <div class="session-title">Author A, <em>Title of Text Read</em></div>
+          <div class="session-desc">Discussion focused on [themes / arguments discussed].</div>
+        </div>
+      </li>
+      <li class="session-item">
+        <div class="session-num">Feb</div>
+        <div>
+          <div class="session-date">3 February 2025 <span class="status-badge status-past">Past</span></div>
+          <div class="session-title">Author B, "Article Title"</div>
+          <div class="session-desc">Discussion of [themes].</div>
+        </div>
+      </li>
+      <li class="session-item">
+        <div class="session-num">Mar</div>
+        <div>
+          <div class="session-date">3 March 2025 <span class="status-badge status-upcoming">Upcoming</span></div>
+          <div class="session-title">Author C, <em>Book Title</em>, Chapter X</div>
+          <div class="session-desc">To be distributed via email one week in advance.</div>
+        </div>
+      </li>
+    </ul>
+  </div>
+
+  <!-- ── SEMINAR 3 ── -->
+  <div class="seminar-panel" id="seminar3">
+    <div class="seminar-hero">
+      <div>
+        <div class="section-label">One-off Event · June 2025</div>
+        <div class="seminar-title">Workshop: [Workshop Title]</div>
+        <div class="seminar-subtitle">An intensive two-day workshop on [specific theme]</div>
+        <div class="seminar-description">
+          <p>
+            This workshop brings together [number] invited researchers to discuss [topic].
+            The workshop is funded by [Funding Body / Institution] and results will feed into a planned
+            edited volume / special issue / collaborative research project.
+          </p>
+          <br />
+          <p>
+            The workshop is by invitation only. A public keynote lecture will be held on the
+            evening of Day 1 and is open to all. See programme below.
+          </p>
+        </div>
+      </div>
+      <div>
+        <div class="seminar-info-box">
+          <div class="info-row">
+            <div class="info-label">When</div>
+            <div class="info-value">19–20 June 2025</div>
+          </div>
+          <div class="info-row">
+            <div class="info-label">Where</div>
+            <div class="info-value">[Venue], [City]</div>
+          </div>
+          <div class="info-row">
+            <div class="info-label">Format</div>
+            <div class="info-value">In-person (Invitation only)</div>
+          </div>
+          <div class="info-row">
+            <div class="info-label">Public Event</div>
+            <div class="info-value">Keynote: 19 June, 19:00 — open to all</div>
+          </div>
+          <a href="mailto:your.email@university.edu?subject=Workshop Inquiry" class="register-btn">Keynote Registration</a>
+        </div>
+      </div>
+    </div>
+
+    <div class="schedule-title">Workshop Programme</div>
+    <ul class="session-list">
+      <li class="session-item">
+        <div class="session-num" style="font-size:0.8rem;opacity:0.5;padding-top:0.4rem;">D1</div>
+        <div>
+          <div class="session-date">19 June, 09:30</div>
+          <div class="session-title">Welcome &amp; Introductions</div>
+          <div class="session-desc">Opening remarks by the organisers.</div>
+        </div>
+      </li>
+      <li class="session-item">
+        <div class="session-num" style="font-size:0.8rem;opacity:0.5;padding-top:0.4rem;">D1</div>
+        <div>
+          <div class="session-date">19 June, 10:00–13:00</div>
+          <div class="session-title">Panel I: [Panel Theme]</div>
+          <div class="session-desc">Three paper presentations with discussant. Chair: [Name].</div>
+        </div>
+      </li>
+      <li class="session-item">
+        <div class="session-num" style="font-size:0.8rem;opacity:0.5;padding-top:0.4rem;">D1</div>
+        <div>
+          <div class="session-date">19 June, 19:00 · <strong>Public</strong></div>
+          <div class="session-title">Keynote Lecture: "Title of Keynote Talk"</div>
+          <div class="session-desc">Delivered by Prof. Keynote Speaker, [University]. Open to the public. Venue: [Lecture Hall].</div>
+        </div>
+      </li>
+      <li class="session-item">
+        <div class="session-num" style="font-size:0.8rem;opacity:0.5;padding-top:0.4rem;">D2</div>
+        <div>
+          <div class="session-date">20 June, 09:30–12:30</div>
+          <div class="session-title">Panel II: [Panel Theme]</div>
+          <div class="session-desc">Three further paper presentations with discussant. Chair: [Name].</div>
+        </div>
+      </li>
+      <li class="session-item">
+        <div class="session-num" style="font-size:0.8rem;opacity:0.5;padding-top:0.4rem;">D2</div>
+        <div>
+          <div class="session-date">20 June, 14:00–16:00</div>
+          <div class="session-title">Closing Roundtable</div>
+          <div class="session-desc">All participants. Discussion of emerging themes and future directions.</div>
+        </div>
+      </li>
+    </ul>
+  </div>
+
+</div>
+
+<footer>
+  <p>&copy; 2025 Dr. Your Name · [University] · All rights reserved</p>
+</footer>
+
+<script>
+  function showSeminar(id, btn) {
+    document.querySelectorAll('.seminar-panel').forEach(p => p.classList.remove('active'));
+    document.querySelectorAll('.seminar-tab').forEach(b => b.classList.remove('active'));
+    document.getElementById(id).classList.add('active');
+    btn.classList.add('active');
+  }
+</script>
+</body>
+</html>
