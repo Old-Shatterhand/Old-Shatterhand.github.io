@@ -1611,8 +1611,8 @@ footer {
 }
  
 .cfp-box p:last-child { margin-bottom: 0; }
-.cfp-box strong { color: var(--cream); font-weight: 400; }
- 
+.cfp-box strong { color: var(--cream); font-weight: 600; }
+
 .cfp-box a {
   color: var(--gold-light);
   text-decoration: underline;
