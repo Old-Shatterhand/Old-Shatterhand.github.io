@@ -31,19 +31,23 @@
     <button class="filter-btn active" onclick="filterTalks('all', this)">All</button>
     <button class="filter-btn" onclick="filterTalks('contributed', this)">Contributed Talks</button>
     <button class="filter-btn" onclick="filterTalks('poster', this)">Conference Posters</button>
+    <button class="filter-btn" onclick="filterTalks('event', this)">Organized Events</button>
   </div>
 
   <div id="talksGrid">
 
-    <div class="talk-item" data-type="poster">
+    <div class="talk-item" data-type="event">
       <div class="talk-year-col">2026</div>
       <div>
         <div class="talk-title">Structure of Biological Molecules</div>
         <div class="talk-event">Workshop @ German Conference on Bioinformatics 2026</div>
         <div class="talk-location">Saarbruecken, Germany — December 2026</div>
         <div class="talk-tags">
-          <span class="tag tag-poster">Conference Workshop</span>
+          <span class="tag tag-event">Co-Organized Workshop</span>
         </div>
+      </div>
+      <div class="talk-links">
+        <a href="workshop_sbm2026.html" class="talk-link">Website</a>
       </div>
     </div>
 
@@ -57,6 +61,8 @@
           <span class="tag tag-poster">Conference Poster</span>
         </div>
       </div>
+      <div class="talk-links">
+      </div>
     </div>
 
     <div class="talk-item" data-type="contributed">
@@ -67,6 +73,7 @@
         <div class="talk-location">Duesseldorf, Germany — September 2025</div>
         <div class="talk-tags">
           <span class="tag tag-contributed">Contributed Talk</span>
+          <span class="tag tag-poster">Conference Poster</span>
         </div>
       </div>
       <div class="talk-links">
@@ -83,6 +90,7 @@
         <div class="talk-location">Liverpool, United Kingdom — July 2025</div>
         <div class="talk-tags">
           <span class="tag tag-contributed">Contributed Talk</span>
+          <span class="tag tag-poster">Conference Poster</span>
         </div>
       </div>
       <div class="talk-links">
